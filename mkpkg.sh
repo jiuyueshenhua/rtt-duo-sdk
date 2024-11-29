@@ -3,8 +3,8 @@ set -e
 
 export DPT_BOARD_TYPE="${DPT_BOARD_TYPE:-milkv-duos-sd}"
 export DPT_STORAGE_TYPE=sd
-DPT_PATH_BIG_KERNEL=/home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cv18xx_risc-v/Image
-DPT_PATH_LITTLE_KERNEL=/home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/c906_little/rtthread.bin
+#DPT_PATH_BIG_KERNEL=
+#DPT_PATH_LITTLE_KERNEL=
 export DPT_PATH_ROOT=$(pwd)
 export DPT_PATH_OUTPUT=${DPT_PATH_ROOT}/output
 export DPT_ALL_BOARDS=
