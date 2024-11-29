@@ -1,0 +1,41 @@
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .text          0x0000000000000000        0x0 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .data          0x0000000000000000        0x0 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .bss           0x0000000000000000        0x0 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .rodata.build_message
+                0x0000000000000000       0x1a /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .rodata.version_string
+                0x0000000000000000       0x11 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .debug_info    0x0000000000000000       0x89 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .debug_abbrev  0x0000000000000000       0x48 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .debug_aranges
+                0x0000000000000000       0x20 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .debug_macro   0x0000000000000000       0x11 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .debug_macro   0x0000000000000000      0x8c8 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .debug_line    0x0000000000000000       0x28 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .debug_str     0x0000000000000000     0x2a85 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .comment       0x0000000000000000       0x4e /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+ .riscv.attributes
+                0x0000000000000000       0x57 /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000000000        0x4
+                0x0000000000000000        0x4 LONG 0xdeadbeef
+ *(*)
+                0x0000000080000000                DEF_DRAM_BASE = 0x80000000
+                0x0000000080000000                DEF_MONITOR_RUNADDR = 0x80000000
+                0x000000009fe00000                DEF_BLCP_2ND_RUNADDR = 0x9fe00000
+LOAD /home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/build_message.o
+OUTPUT(/home/catcatbing/dev/project/join_rtt/rt-thread/bsp/cvitek/cvitek_bootloader/fsbl/build/cv1813h_milkv_duos_sd/blmacros/blmacros.elf elf64-littleriscv)
